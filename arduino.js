@@ -7,13 +7,13 @@ var openDoor, buildStatus;
 var goDoor = function () {
   var servo = new five.Servo({
     pin: 10,
-    range: [120, 180],
+    range: [145, 180],
     startAt: 180
   });
 
   openDoor = function () {
     servo.min();
-    setTimeout(servo.max.bind(servo), 700);
+    setTimeout(servo.max.bind(servo), 500);
   };
 
   board.repl.inject({
