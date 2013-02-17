@@ -4,7 +4,7 @@
   "description": "buzzes my front door",
   "main": "server.js",
   "dependencies": {
-    "johnny-five": "git+ssh://git@github.com:reconbot/johnny-five.git",
+    "johnny-five": "git://github.com/reconbot/johnny-five.git",
     "express": "3.1.0"
   },
   "devDependencies": {},
