@@ -2,10 +2,9 @@
 var five = require('johnny-five');
 var board = new five.Board();
 
-var openDoor = function () {};
+var openDoor, buildStatus;
 
 var goDoor = function () {
-
   var servo = new five.Servo({
     pin: 10,
     range: [120, 180],
@@ -14,7 +13,7 @@ var goDoor = function () {
 
   openDoor = function () {
     servo.min();
-    setTimeout(this.max.bind(servo), 700);
+    setTimeout(servo.max.bind(servo), 700);
   };
 
   board.repl.inject({
@@ -23,9 +22,32 @@ var goDoor = function () {
 
 };
 
-board.on("ready", goDoor);
+var goStatus = function () {
+  var green = new five.Led(5);
+  var red = new five.Led(5);
+  var onVal = 100;
 
-//   var bigLed = new five.Led(6);
+  buildStatus = function (good) {
+    if (good) {
+      green.brightness(onVal);
+      red.off();
+    } else {
+      green.off();
+      red.brightness(onVal);
+    }
+  };
+
+};
+
+board.on("ready", goDoor);
+board.on("ready", goStatus);
+
+
 module.exports = {
-  openDoor: openDoor
+  openDoor: function () {
+    openDoor && openDoor();
+  },
+  buildStatus: function (value) {
+    buildStatus && buildStatus(value);
+  }
 };

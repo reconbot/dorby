@@ -1,0 +1,19 @@
+{
+  "name": "doorbell",
+  "version": "0.0.1",
+  "description": "buzzes my front door",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "~2.7.2",
+    "johnny-five": "git+ssh://git@github.com:rwldrn/johnny-five.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "reconbot",
+  "license": "BSD",
+  "gitHead": "09c44dab79671e6117a98447de22720e7be7a4b7"
+}
