@@ -1,10 +1,10 @@
 {
-  "name": "doorbell",
-  "version": "0.0.1",
-  "description": "buzzes my front door",
+  "name": "Dorby",
+  "version": "0.0.2",
+  "description": "Answers the intercom at my office",
   "main": "server.js",
   "dependencies": {
-    "johnny-five": "git://github.com/reconbot/johnny-five.git",
+    "johnny-five": "git://github.com/rwldrn/johnny-five.git",
     "express": "3.1.0"
   },
   "devDependencies": {},
