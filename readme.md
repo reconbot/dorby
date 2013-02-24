@@ -23,3 +23,15 @@ The servo, mounting boards, arduino and wires all came in the excellent [SparkFu
 
 I should also note that it's possible to do ALL of this from just an arduino with a [Arduino WiFi Shield](http://arduino.cc/en/Main/ArduinoWiFiShield) but then it wouldn't be ~20 lines of JavaScript and it wouldn't have been made by me in two days.
 
+## Hardware
+ - USB Wifi Card that someone said worked on the raspberry pi
+ - Powered usb hub because the raspberry pi doesn't have much power to spare and it kept resetting when trying to power the wifi
+ - Cool [Raspberry Pie Case](https://tindie.com/shops/search/?q=raspberry+pi)
+ - [Arduino Uno](https://www.adafruit.com/products/50) with [Firmata Firmware 2.4](https://github.com/firmata/arduino)
+ - [Breadboard](https://www.adafruit.com/products/64) (not really needed)
+ - [Micro Servo](https://www.adafruit.com/products/169)
+ - Angle brackets, nuts, bolts, and mounting tape (go patronize your local hardware store)
+ - Good old fashion gumption and a drill.
+
+## Credits
+Rick Waldron for Johnny Five and being a good sport, Julian Gautier and Jeff Hoefs and whoever else worked on Firmata which is awesome, The raspberry pi guys and gals, [Levo League](http://www.levoleague.com/) for hosting the hack weekend and myself Francis Gulotta.
