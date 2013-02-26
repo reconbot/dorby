@@ -17,7 +17,7 @@ Dorby works like this.
 
 The coolest part is the mounting for the servo. Dorby has two angle brackets, double sided mounting tape, two drywall anchors, two nuts, two bolts and a zip tie.
 
-![Dorby!](https://raw.github.com/LevoLeague/dorby/master/public/anglebrackets.jpg)
+![Dorby!](https://raw.github.com/LevoLeague/dorby/master/public/servo-600x600.jpg)
 
 The servo, mounting boards, arduino and wires all came in the excellent [SparkFun Inventor's Kit for Arduino](https://www.sparkfun.com/products/11227) but if you have an arduino you can pickup the [micro servo](https://www.adafruit.com/products/169) from adafruit for $6 and call it a day.
 
