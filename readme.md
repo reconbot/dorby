@@ -33,5 +33,12 @@ I should also note that it's possible to do ALL of this from just an arduino wit
  - Angle brackets, nuts, bolts, and mounting tape (go patronize your local hardware store)
  - Good old fashion gumption and a drill.
 
+## Videos
+
+[![Arduino Hardware Setup](https://raw.github.com/LevoLeague/dorby/master/public/arduino-hardware-setup.png)](http://youtu.be/6VnSIbRAlFw)
+
+[![Dorby Servo Action](https://raw.github.com/LevoLeague/dorby/master/public/servo-action-youtube.png)](http://youtu.be/gh7LtDA6EL0)
+
+
 ## Credits
 Rick Waldron for Johnny Five and being a good sport, Julian Gautier and Jeff Hoefs and whoever else worked on Firmata which is awesome, The raspberry pi guys and gals, [Levo League](http://www.levoleague.com/) for hosting the hack weekend and myself Francis Gulotta.
