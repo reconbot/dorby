@@ -5,7 +5,7 @@ We had a problem at the Levo League with our intercom system. The doorbell rings
 
 This had to be stopped so during a hack weekend Dorby was born.
 
-![Dorby!](https://raw.github.com/LevoLeague/dorby/master/public/dorby-v0.1-600x600.jpg)
+![Dorby!](https://raw.github.com/reconbot/dorby/master/public/dorby-v0.1-600x600.jpg)
 
 Dorby is powered by a collection of open source hardware and software. Primarily [Raspbery Pi](http://www.raspberrypi.org/), [Arduino Uno](http://arduino.cc/), [Johnny-Five](https://github.com/rwldrn/johnny-five#readme), and [node.js](http://nodejs.org/)
 
@@ -17,7 +17,7 @@ Dorby works like this.
 
 The coolest part is the mounting for the servo. Dorby has two angle brackets, double sided mounting tape, two drywall anchors, two nuts, two bolts and a zip tie.
 
-![Dorby!](https://raw.github.com/LevoLeague/dorby/master/public/servo-600x600.jpg)
+![Dorby!](https://raw.github.com/reconbot/dorby/master/public/servo-600x600.jpg)
 
 The servo, mounting boards, arduino and wires all came in the excellent [SparkFun Inventor's Kit for Arduino](https://www.sparkfun.com/products/11227) but if you have an arduino you can pickup the [micro servo](https://www.adafruit.com/products/169) from adafruit for $6 and call it a day.
 
@@ -35,9 +35,9 @@ I should also note that it's possible to do ALL of this from just an arduino wit
 
 ## Videos
 
-[![Arduino Hardware Setup](https://raw.github.com/LevoLeague/dorby/master/public/arduino-hardware-setup.png)](http://youtu.be/6VnSIbRAlFw)
+[![Arduino Hardware Setup](https://raw.github.com/reconbot/dorby/master/public/arduino-hardware-setup.png)](http://youtu.be/6VnSIbRAlFw)
 
-[![Dorby Servo Action](https://raw.github.com/LevoLeague/dorby/master/public/servo-action-youtube.png)](http://youtu.be/gh7LtDA6EL0)
+[![Dorby Servo Action](https://raw.github.com/reconbot/dorby/master/public/servo-action-youtube.png)](http://youtu.be/gh7LtDA6EL0)
 
 
 ## Credits
