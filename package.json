@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "johnny-five": "git://github.com/rwldrn/johnny-five.git",
-    "express": "3.1.0"
+    "express": "4.14.1"
   },
   "devDependencies": {},
   "scripts": {
